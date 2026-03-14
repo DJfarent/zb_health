@@ -31,7 +31,7 @@ Goal: A **clean, minimal injury system** that players can read instantly during 
 - Designed specifically for Z-City organism damage values
 
 ------------------------------
-     DESIGN PHILOSOPHY
+            DESIGN
 ------------------------------
 
 Most Z-City HUD mods include multiple systems:
@@ -77,41 +77,6 @@ Severed    | Limb amputated     | Hidden
 
 3. Restart the server or reload Lua.  
    HUD will automatically appear when joining the server.
-
-------------------------------
-       REQUIREMENTS
-------------------------------
-
-- Garry's Mod
-- Z-City gamemode
-- HUD reads damage values from: `ply.organism`
-
-------------------------------
-       CUSTOMIZATION
-------------------------------
-
-Change HUD position inside the script:
-
-HUD.base_x = ScrW() - 120  
-HUD.base_y = 80
-
-------------------------------
-        PERFORMANCE
-------------------------------
-
-Very lightweight:  
-- Reads limb damage  
-- Converts it to a state  
-- Draws the limb sprite  
-
-No heavy UI logic or extra calculations.
-
-------------------------------
-        FUTURE IDEAS
-------------------------------
-
-- Limb break notifications  
-- Cleaner UI design
 
 ------------------------------
         LICENSE
