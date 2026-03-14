@@ -78,10 +78,6 @@ Severed    | Limb amputated     | Hidden
 3. Restart the server or reload Lua.  
    HUD will automatically appear when joining the server.
 
-------------------------------
-        LICENSE
-------------------------------
-
 Free to use and modify for Garry’s Mod servers.
 
 ------------------------------
